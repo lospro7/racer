@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Racing" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="all">
+				<Option output="./Racer" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="/usr/include" />
+		</Compiler>
+		<Linker>
+			<Add library="glut" />
+			<Add library="GL" />
+			<Add library="GLU" />
+			<Add library="Xxf86vm" />
+			<Add directory="/usr/lib" />
+		</Linker>
+		<Unit filename="Makefile" />
+		<Unit filename="inc/3dsChunks.h" />
+		<Unit filename="inc/3dsObject.h" />
+		<Unit filename="inc/GLDebugDrawer.h" />
+		<Unit filename="inc/GL_ShapeDrawer.h" />
+		<Unit filename="inc/game.h" />
+		<Unit filename="inc/gameWorld.h" />
+		<Unit filename="inc/physics.h" />
+		<Unit filename="inc/track.h" />
+		<Unit filename="inc/vehicle.h" />
+		<Unit filename="inc/vehicleContainer.h" />
+		<Unit filename="src/3dsObject.cc" />
+		<Unit filename="src/GLDebugDrawer.cc" />
+		<Unit filename="src/GL_ShapeDrawer.cc" />
+		<Unit filename="src/game.cc" />
+		<Unit filename="src/gameWorld.cc" />
+		<Unit filename="src/main.cc" />
+		<Unit filename="src/physics.cc" />
+		<Unit filename="src/track.cc" />
+		<Unit filename="src/vehicle.cc" />
+		<Unit filename="src/vehicleContainer.cc" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars set="default" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
