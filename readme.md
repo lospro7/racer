@@ -24,27 +24,27 @@ Good luck I hope you get it working quickly.
 # Controls
 
 ## Keys
-1 to 6 - Change Vehicle Models
-
-F1 - Vehicle view
-F2 - Free camera
+* 1 to 6 - Change Vehicle Models
+* F1 - Vehicle view
+* F2 - Free camera
 
 ## Vehicle view Controls
-Up - Forward
-Down - Break
-Left - Steer left
-Right - Steer Right
-z - Reverse/Drive
+* Up - Forward
+* Down - Break
+* Left - Steer left
+* Right - Steer Right
+* Z - Reverse/Drive
 
 ## Free camera controls
-W - move forward
-S - move backward
-A - Strafe left
-D - Strafe right
-Up - Look up
-Down - Look down
-Left - Look left
-Right - Look right
+* W - move forward
+* S - move backward
+* A - Strafe left
+* D - Strafe right
+* Up - Look up
+* Down - Look down
+* Left - Look left
+* Right - Look right
 
-G - loop through debug modes
-Q - quit
+## Other
+* G - loop through debug modes
+* Q - quit
