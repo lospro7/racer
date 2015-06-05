@@ -44,3 +44,6 @@ I've only tested this in an Ubuntu linux machine.
 ## Other
 * G - loop through debug modes
 * Q - quit
+
+# Video demo
+https://www.youtube.com/watch?v=47RREkIukDA
